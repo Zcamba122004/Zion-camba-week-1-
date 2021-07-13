@@ -1,0 +1,28 @@
+body {
+    background-color:black;
+}
+
+h1{
+    color:limegreen;
+    text-align:center;
+    
+}
+
+#para1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    color:limegreen
+    
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    color:white
+}
+
+
+h2.center{
+    text-align:center;
+    color:red
+}
