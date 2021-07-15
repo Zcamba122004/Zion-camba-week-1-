@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS style sheet.css">
+    <img src="USE THIS LOGO.jpg" width="200" height="=200">
+<title>Day 9 Website</title>
+<!----Start Code-->
+
+<h1>Day 9 Website (form) </h1>
+<hr>
+<h2>Sign up for a special Gift! 🎁</h2>
+
+<body>
+<!---Start of forms-->
+<form action="mailto:W0468731@campus.nscc.ca?subject=From%20our%20Website" method="post" enctype="text/plain">
+
+
+    <label for="fname">First name:</label><br>
+  <input type="text" required / id="fname" name="fname" required size="45"
+  pattern="[a-z]{2,15}" title="2 to 15 lowercase letters"><br>
+  
+  <label for="lname">Last name:</label><br>
+  <input type="text" required / id="lname" name="lname" required size="45"
+  pattern="[a-z]{2,15}" title="2 to 15 lowercase letters"><br><br>
+
+   <label for="Age">Age:</label><br>
+  <input type="number" required id="Age" name="Age" min="16" max="100" step="1"><br><br>
+
+<label for="City">City:</label><br>
+<input type="text" required / id="City" name="City" required size="45"
+pattern="[a-z]{2,20}" title="2 to 20 lowercase letters"><br><br>
+<!---This is the main form-->
+
+
+<label for="lname">Email</label><br>
+<input type="email" required / id="email" name="email"  ><br><br>
+
+<label for="date">Date:</label><br>
+<input type="date" required / id="date" name="date"><br><br>
+
+<label for="tell">Phone number:</label><br>
+(<input required / name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+   <input required / name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> -
+   <input required / name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/><br><br>
+    <!---This is the extras that you wanted-->
+
+
+
+  
+  
+  <!---Submit button-->
+   <input type="submit" value="send">
+  <input type="reset" value="reset">
+  <!---Submit button-->
+
+  <hr>
+
+  
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
