@@ -9,19 +9,7 @@ h1{
 }
 
 
-table{
-font-family:'Courier New', Courier, monospace;
-border-collapse:collapse; 
-width:100%;
-background-color:tan
-}
 
-td,th{
-border:3px solid maroon; 
-text-align:left;
-padding:8px; 
-background-color:tan;
-}
 
 tr:nth-child(even){
 	backround-color:#ffffff;
